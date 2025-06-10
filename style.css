@@ -26,6 +26,14 @@ button {
   margin-top: 10px;
 }
 
+button:hover {
+  background-color: #fff;
+  color: #e63946;
+  transform: scale(1.07) rotate(-2deg);
+  box-shadow: 0 4px 16px #e63946aa;
+  transition: all 0.2s cubic-bezier(.4,2,.6,1);
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -38,6 +46,14 @@ li {
   padding: 8px 12px;
   width: fit-content;
   border-radius: 5px;
+}
+
+li:hover {
+  background-color: #e63946;
+  color: #fff;
+  transform: scale(1.05) skewX(-3deg);
+  box-shadow: 0 2px 8px #e6394655;
+  transition: all 0.18s cubic-bezier(.4,2,.6,1);
 }
 
 .hidden {
